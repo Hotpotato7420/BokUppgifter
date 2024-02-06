@@ -42,6 +42,9 @@ public class Uppgift9_4 {
 
             for (int i=1; i <= n; i++){//Ett varv per år
                 b = b +b*(0.01*r)-ut;
+
+                System.out.println("--------------- \n | \n |");
+
                 System.out.println("År: " + i + " | " + b + "kr");
             }
     }
